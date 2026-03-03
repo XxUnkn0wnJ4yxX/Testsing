@@ -1,10 +1,10 @@
 function start(){
-      mouseClickMethod(newRect);
+var but = document.getElementsByClassName("but")
+for(var i = 0; i < but.length; i++){
+    but[i].
+}
 }
 
-function newRect(e){
-    var rect = new Rectangle(20, 30);
-    rect.setPosition(e.getX() - 10, e.getY() - 15);
-    rect.setColor(Randomizer.nextColor());
-    rect.draw();
-}
+
+
+window.onload = start();

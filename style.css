@@ -1,1 +1,9 @@
-
+button {
+    width: 50px;
+    height: 10px;
+}
+.pageS {
+    background-color: #ff0000;
+    height: 30px;
+    width: 70px;
+}
