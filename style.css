@@ -7,3 +7,10 @@ button {
     height: 30px;
     width: 70px;
 }
+.but {
+    height: 75px;
+}
+
+.but:hover {
+    background-color: #ff0000;
+}
