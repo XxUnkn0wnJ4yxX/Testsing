@@ -9,6 +9,8 @@ button {
 }
 .but {
     height: 75px;
+    margin: 0px;
+    padding: 0px;
 }
 
 .but:hover {
