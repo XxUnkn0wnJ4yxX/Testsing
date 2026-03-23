@@ -16,3 +16,7 @@ button {
 .but:hover {
     background-color: #ff0000;
 }
+
+#right:hover {
+    cursor: crosshair;
+}
