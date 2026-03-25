@@ -11,7 +11,7 @@ buttonSetUp();
 
 //page bar
 var pageButtons = document.getElementById("pageBar");
-pageButtons.innerHTML = ("<a href = 'index.html'><button class = 'pageS'>page 1</button></a><a href = 'page2.html'><button class = 'pageS'>page 2</button></a>");
+pageButtons.innerHTML = ("<a href = 'index.html'><button class = 'pageS'>page 1</button></a><a href = 'page2.html'><button class = 'pageS'>page 2</button></a><a href = 'page3.html'><button class = 'pageS'>Page 3</button></a>");
 }
 
 //sets up the buttons on page 2
