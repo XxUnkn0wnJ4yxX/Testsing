@@ -1,6 +1,7 @@
 var one = false;
 var two = false;
 var three = false;
+var four = false;
 
 
 function setUp(){
@@ -25,13 +26,15 @@ function setUp(){
     var but1 = document.getElementById("but1");
     var but2 = document.getElementById("but2");
     var but3 = document.getElementById("but3");
+    var but4 = document.getElementById("but4");
 
-    but1.onclick = oneclick;
-    but2.onclick = twoclick;
-    but3.onclick = threeclick;
+    but1.onclick = oneClick;
+    but2.onclick = twoClick;
+    but3.onclick = threeClick;
+    but4.onclick = fourClick
 }
 
-function oneclick(){
+function oneClick(){
     var but1 = document.getElementById("but1");
     var but2 = document.getElementById("but2");
     if(one == true){
@@ -53,14 +56,14 @@ function oneclick(){
     }else{
         
     }
-    if(one == true && two == true && three == true){
+    if(one == true && two == true && three == true && four == true){
 
         var nexxt = document.getElementById("next");
         nexxt.style.visibility = "visible";
         
     }
 }
-function twoclick(){
+function twoClick(){
     var but2 = document.getElementById("but2");
     var but3 = document.getElementById("but3");
       if(one == true){
@@ -83,7 +86,7 @@ function twoclick(){
         but3.style.backgroundColor = "#dddddd"
     }  
 }
-function threeclick(){
+function threeClick(){
     var but1 = document.getElementById("but1");
     var but3 = document.getElementById("but3");
     if(one == true){
@@ -100,6 +103,37 @@ function threeclick(){
     if(three == true){
         three = false;
         but3.style.backgroundColor = "#000000"
+    }else{
+        three = true
+        but3.style.backgroundColor = "#dddddd"
+    }
+}
+
+function fourClick(){
+    var but3 = document.getElementById("but3");
+    var but4 = document.getElementById("but4");
+    if(one == true){
+        one = false;
+        but1.style.backgroundColor = "#000000"
+    }else{
+
+    }
+    if(two == true){
+
+    }else{
+        
+    }
+    if(three == true){
+        three = false;
+        but3.style.backgroundColor = "#000000"
+    }else{
+        three = true
+        but3.style.backgroundColor = "#dddddd"
+    }
+
+    if(four == true){
+        four = false;
+        but4.style.backgroundColor = "#000000"
     }else{
         three = true
         but3.style.backgroundColor = "#dddddd"

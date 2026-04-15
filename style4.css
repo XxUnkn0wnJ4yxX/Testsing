@@ -1,6 +1,6 @@
 #but1 {
     position: absolute;
-    left: 20%;
+    left: 10%;
     width: 20%;
     height: 60%;
     background-color: #000000;
@@ -8,7 +8,7 @@
 
 #but2 {
     position: absolute;
-    left: 40%;
+    left: 30%;
     width: 20%;
     height: 60%;
     background-color: #000000;
@@ -16,11 +16,22 @@
 
 #but3 {
     position: absolute;
-    left: 60%;
+    left: 50%;
     width: 20%;
     height: 60%;
     background-color: #000000;
 }
+
+#but4 {
+    position: absolute;
+    left: 70%;
+    width: 20%;
+    height: 60%;
+    background-color: #000000;
+}
+
+
+
 #stopp {
     position: absolute;
     left: 0%;
