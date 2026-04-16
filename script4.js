@@ -85,6 +85,12 @@ function twoClick(){
         three = true
         but3.style.backgroundColor = "#dddddd"
     }  
+        if(one == true && two == true && three == true && four == true){
+
+        var nexxt = document.getElementById("next");
+        nexxt.style.visibility = "visible";
+        
+    }
 }
 function threeClick(){
     var but1 = document.getElementById("but1");
@@ -107,16 +113,24 @@ function threeClick(){
         three = true
         but3.style.backgroundColor = "#dddddd"
     }
+        if(one == true && two == true && three == true && four == true){
+
+        var nexxt = document.getElementById("next");
+        nexxt.style.visibility = "visible";
+        
+    }
 }
 
 function fourClick(){
+    var but1 = document.getElementById("but1");
     var but3 = document.getElementById("but3");
     var but4 = document.getElementById("but4");
     if(one == true){
         one = false;
         but1.style.backgroundColor = "#000000"
     }else{
-
+        one = true;
+        but1.style.backgroundColor = "#dddddd"
     }
     if(two == true){
 
@@ -135,8 +149,14 @@ function fourClick(){
         four = false;
         but4.style.backgroundColor = "#000000"
     }else{
-        three = true
-        but3.style.backgroundColor = "#dddddd"
+        four = true
+        but4.style.backgroundColor = "#dddddd"
+    }
+        if(one == true && two == true && three == true && four == true){
+
+        var nexxt = document.getElementById("next");
+        nexxt.style.visibility = "visible";
+        
     }
 }
 
